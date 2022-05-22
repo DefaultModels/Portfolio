@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+html, body {
+	box-sizing: border-box;
+	height: 100%;
+  width:100%;
+	font-size: 20px;
+	background: white;
+	transition: 0.5s;
+	font-family: 'Be Vietnam Pro', sans-serif;
+  overflow-x: hidden;
+  margin:0;
+}
+.main{
+  height:100%;
+}
+.menu-container {
+  width: 100%;
+  display: block;
+	position: fixed;
+	transition: 0.3s;
+	height: 77px;
+  align-items:center;
+  text-align:center;
+  background: black;
+}
+
+.menu .tab {
+	border: none;
+	width: 220px;
+	height: 50px;
+	border-radius: 30px;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: 25px;
+	transition: 0.3s;
+  display:inline-block;
+}
+
+.menu .tab .a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+}
+
+.menu .tab a:hover {
+  font-size: larger;
+}
+
+.main .timeline .card {
+  display: flex;
+  flex-direction:column;
+	left: 20px;
+  right:0;
+	transition: 0.3s;
+  text-align:left;
+	justify-content:flex-start;
+  color:black;
+  border-left: 6px solid black;
+  min-height: 250px;
+  padding-left:10px;
+  margin-left:20px;
+}
+
+.main .timeline .card .title {
+  color:black;
+  font-size:20px;
+  margin:0;
+  padding:0;
+}
+
+.main .timeline .card .creation-date {
+  color: grey;
+  font-size:15px;
+  margin:0;
+  padding:0;
+}
+
+.main .timeline .card .description {
+  color:black;
+  font-size:15px;
+  margin:0;
+  padding:0;
+}
